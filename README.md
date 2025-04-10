@@ -72,7 +72,7 @@ This app uses **Ashwini to Revati** Nakshatras with curated **emotional traits**
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/vedic-astro-therapist.git
+git clone https://github.com/AhireRohit/Vedic-Astro-Therapist-app
 cd vedic-astro-therapist
 ```
 2. Install Dependencies
@@ -100,8 +100,6 @@ streamlit run app.py
 
 📁 Project Structure
 ```graphql
-Copy
-Edit
 vedic-astro-therapist/
 │
 ├── app.py                      # Main Streamlit app
