@@ -71,42 +71,35 @@ This app uses **Ashwini to Revati** Nakshatras with curated **emotional traits**
 
 ### 1. Clone the Repository
 
+```bash
 git clone https://github.com/yourusername/vedic-astro-therapist.git
 cd vedic-astro-therapist
+```
 2. Install Dependencies
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 3. Create .streamlit/secrets.toml
-toml
-Copy
-Edit
+```bash
 HUGGINGFACEHUB_API_TOKEN = "your_huggingface_token_here"
+```
 You can get your token from https://huggingface.co/settings/tokens
 
-4. Run Streamlit App
-bash
-Copy
-Edit
+5. Run Streamlit App
+```bash
 streamlit run app.py
+```
 ☁️ How to Deploy on Streamlit Cloud (Free Hosting)
-Push your code to GitHub
-
-Go to https://streamlit.io/cloud
-
-Connect your GitHub account
-
-Deploy your app with:
-
-Path to app.py
-
-Add HUGGINGFACEHUB_API_TOKEN under secrets
-
-Done! Your link will be live and shareable 🚀
+1. Push your code to GitHub
+2. Go to https://streamlit.io/cloud
+3. Connect your GitHub account
+4. Deploy your app with:
+  Path to app.py
+  Add HUGGINGFACEHUB_API_TOKEN under secrets
+5. Done! Your link will be live and shareable 🚀
 
 📁 Project Structure
-graphql
+```graphql
 Copy
 Edit
 vedic-astro-therapist/
@@ -117,10 +110,9 @@ vedic-astro-therapist/
 ├── nakshatra_emotional_traits.json  # Full Nakshatra emotional dataset
 └── .streamlit/
     └── secrets.toml            # Contains HuggingFace API token
+```
 🧠 Example Prompts Sent to Hugging Face
-txt
-Copy
-Edit
+```txt
 You are a Vedic Astro-Therapist. The user was born in the Nakshatra "Ashwini", and today's Moon is in "Uttara Phalguni".
 
 Generate a poetic, personalized daily horoscope. Include:
@@ -132,14 +124,13 @@ Traits of birth Nakshatra: Energetic, adventurous, healing, fast-acting
 Traits of today's Nakshatra: Diplomatic, harmonious, balanced
 Start your response with the salutation: "Dear Seeker,"
 Conclude the response with the mantra: "Om Ashwinibhyam Namaha"
+```
 🙏 Credits
-🌌 Astrology calculations by Swiss Ephemeris (swisseph)
+-🌌 Astrology calculations by Swiss Ephemeris (swisseph)
+-💬 AI generation via Hugging Face
+-🌍 Location and timezone by geopy & timezonefinder
+-🧘 Emotional insight and Nakshatra content adapted from Vedic texts and interpretations.
 
-💬 AI generation via Hugging Face
-
-🌍 Location and timezone by geopy & timezonefinder
-
-🧘 Emotional insight and Nakshatra content adapted from Vedic texts and interpretations.
 ⭐ Star the Repo if You Like It!
 If this project sparked insight or joy ✨, please consider giving it a ⭐ on GitHub to support more open-source astrological tools!
 
