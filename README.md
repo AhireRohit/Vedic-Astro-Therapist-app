@@ -70,7 +70,7 @@ This app uses **Ashwini to Revati** Nakshatras with curated **emotional traits**
 ## 🚀 How to Run Locally
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/yourusername/vedic-astro-therapist.git
 cd vedic-astro-therapist
 2. Install Dependencies
