@@ -124,10 +124,10 @@ Start your response with the salutation: "Dear Seeker,"
 Conclude the response with the mantra: "Om Ashwinibhyam Namaha"
 ```
 🙏 Credits
--🌌 Astrology calculations by Swiss Ephemeris (swisseph)
--💬 AI generation via Hugging Face
--🌍 Location and timezone by geopy & timezonefinder
--🧘 Emotional insight and Nakshatra content adapted from Vedic texts and interpretations.
+- 🌌 Astrology calculations by Swiss Ephemeris (swisseph)
+- 💬 AI generation via Hugging Face
+- 🌍 Location and timezone by geopy & timezonefinder
+- 🧘 Emotional insight and Nakshatra content adapted from Vedic texts and interpretations.
 
 ⭐ Star the Repo if You Like It!
 If this project sparked insight or joy ✨, please consider giving it a ⭐ on GitHub to support more open-source astrological tools!
