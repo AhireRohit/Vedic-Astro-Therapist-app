@@ -1,0 +1,6 @@
+streamlit
+swisseph
+geopy
+timezonefinder
+pytz
+huggingface_hub
