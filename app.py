@@ -1,5 +1,5 @@
 import streamlit as st
-import swisseph as swe
+import pyswisseph as swe
 import datetime
 from geopy.geocoders import Nominatim
 from timezonefinder import TimezoneFinder
