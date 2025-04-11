@@ -45,7 +45,14 @@ st.markdown("""
 
 st.title("✨ Vedic Astro-Therapist")
 user_name = st.text_input("Enter your name (optional)")
-birth_date = st.date_input("Enter your date of birth")
+from datetime import date
+
+birth_date = st.date_input(
+    "Enter your date of birth",
+    value=date(2000, 1, 1),              # Default selected date
+    min_value=date(1900, 1, 1),          # Earliest date user can pick
+    max_value=date.today()              # Latest allowed date (today)
+)
 birth_time = st.time_input("Enter your time of birth", step=60)
 birth_place = st.text_input("Enter your place of birth (City, Country)")
 
