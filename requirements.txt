@@ -1,5 +1,5 @@
 streamlit
-pyswisseph
+swisseph==0.0.0.dev1
 geopy
 timezonefinder
 pytz
