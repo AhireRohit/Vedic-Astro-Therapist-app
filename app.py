@@ -127,7 +127,7 @@ if st.button("Get My Horoscope"):
         """
 
         response = client.text_generation(
-            model="mistralai/Mistral-7B-Instruct-v0.1",
+            model="tiiuae/falcon-7b-instruct",
             prompt=prompt,
             temperature=0.7,
             max_new_tokens=500
