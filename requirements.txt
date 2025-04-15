@@ -1,5 +1,5 @@
 streamlit
-swisseph @ git+https://github.com/astrorigin/swisseph.git
+pyswisseph
 geopy
 timezonefinder
 pytz
